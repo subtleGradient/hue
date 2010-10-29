@@ -1,19 +1,4 @@
-## Licensed to Cloudera, Inc. under one
-## or more contributor license agreements.  See the NOTICE file
-## distributed with this work for additional information
-## regarding copyright ownership.  Cloudera, Inc. licenses this file
-## to you under the Apache License, Version 2.0 (the
-## "License"); you may not use this file except in compliance
-## with the License.  You may obtain a copy of the License at
-##
-##     http://www.apache.org/licenses/LICENSE-2.0
-##
-## Unless required by applicable law or agreed to in writing, software
-## distributed under the License is distributed on an "AS IS" BASIS,
-## WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-## See the License for the specific language governing permissions and
-## limitations under the License.
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<!DOCTYPE html>
 <html>
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=8" />
@@ -24,6 +9,9 @@
   <link rel="stylesheet" href="/static/css/reset.css" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="/static/css/windows.css" type="text/css" media="screen" charset="utf-8">
   <link rel="stylesheet" href="/static/css/desktop.css" type="text/css" media="screen" charset="utf-8">
+
+  <script src="static/js/ThirdParty/dojo-util/doh/runner.js" type="text/javascript" charset="utf-8"></script>
+  <script src="static/js/ThirdParty/dojo-util/doh/robot.js" type="text/javascript" charset="utf-8"></script>
 
   <script src="/depender/build?client=true&require=dbug,DomReady,Cookie,Element.Dimensions,Element.Style,CCS.Desktop.BackgroundManager,Cookie,Clientcide"></script>
   <!--[if IE 8]>
@@ -224,5 +212,8 @@
       $(document.body).addClass(Browser.Engine.name);
     })();
     </script>
+
+<!-- <form><input type="text" value="hi" id="textbox" style="position:absolute; left:0px; top:20px; font-family:system;"></input></form> -->
+<script src="static/js/Knead.Hue.Demo1.js"></script>
 </body>
 </html>
